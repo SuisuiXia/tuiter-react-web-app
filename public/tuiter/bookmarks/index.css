@@ -1,0 +1,127 @@
+body {
+    padding-left: 16px;
+    border-style: solid;
+    color: black;
+}
+.wd-dots {
+    font-size: 30px;
+    color: black;
+    float: right;
+    margin-right: 16px;
+    font-weight: bold;
+    display: inline;
+}
+.wd-post {
+    clear: both; 
+    margin-bottom: 12px;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    border-bottom-width: 1px;
+    overflow: hidden;
+}
+.wd-profile {
+    float: left;
+    margin-top: 12px;
+    margin-right: 12px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.wd-right {
+    float: left;
+    max-width: 506px;
+}
+.wd-author {
+    margin-top: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+}
+.wd-author-tag {
+    margin-top: 12px;
+    font-size: 15px;
+    color: gray;
+}
+.wd-three-dots {
+    margin-top: 12px;
+    font-size: 15px;
+    color: gray;
+    margin-right: 16px;
+    float: right;
+}
+.wd-content {
+    font-size: 15px;
+    margin-right: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 506px;
+}
+.wd-second-content {
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.wd-img {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    border-bottom-width: 1px;
+    border-bottom: 1px;
+}
+.wd-content-title {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.wd-content-details {
+    font-size: 15px;
+    color: gray;
+    padding: 12px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
+.wd-content-details-1 {
+    font-size: 15px;
+    color: gray;
+    padding: 12px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+.wd-icons {
+    margin-top: 12px;
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+.wd-numbers {
+    margin-left: 1px;
+    margin-right: 35px;
+}
+.wd-chat {
+    margin-left: 12px;
+    margin-right: 1px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+
+}
+.wd-each {
+    margin-left: 35px;
+    margin-right: 1px;
+    text-decoration: none;
+    color:black;
+    font-size: 14px;
+}
+.wd-heart {
+    margin-left: 35px;
+    margin-right: 1px;
+    text-decoration: none;
+    font-size: 14px;
+    color: red;
+}
