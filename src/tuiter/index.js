@@ -1,4 +1,5 @@
 // import { Link } from "react-router-dom";
+import React from "react";
 import Nav from "../nav";
 import NavigationSidebar from "./navigation-sidebar";
 import { Routes, Route } from "react-router";
@@ -8,10 +9,18 @@ import BookmarksScreen from "./bookmarks/bookmarks-screen";
 import ProfileScreen from "./profile/profile-screen";
 // import WhoToFollowListItem from "./who-to-follow-list/who-to-follow-list-item";
 import WhoToFollowList from "./who-to-follow-list";
+import whoReducer from "./reducers/who-reducer";
+import tuitsReducer from "./reducers/tuits-reducer";
+import tuitsNewSlice from "./reducers/new-tuits-reducer";
+import { configureStore } from '@reduxjs/toolkit';
+import {Provider} from "react-redux";
+const store = configureStore(
+  {reducer: {who: whoReducer, tuits: tuitsReducer, tuit: tuitsNewSlice}});
 
 function Tuiter() {
    return(
-      <div>
+      <Provider store={store}>
+         <div>
          {/* <Link to="/labs/a3">A3</Link> |
          <Link to="/hello">Hello</Link> |
          <Link to="/tuiter">Tuiter</Link> */}
@@ -46,6 +55,7 @@ function Tuiter() {
             </div>
          </div>
       </div>
+      </Provider> 
    );
 }
 export default Tuiter
