@@ -48,7 +48,7 @@ function ProfileScreen() {
    <button
     onClick={() => {
       dispatch(logoutThunk());
-      navigate("/login");
+      navigate("../login");
     }}>                   Logout</button>
    <button onClick={save}>Save  </button>
   </div>
