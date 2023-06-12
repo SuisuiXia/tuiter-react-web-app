@@ -10,6 +10,8 @@
     "replies": 333,
     "retuits": 444,
     "likes": 555,
+    "disliked": false,
+    "dislikes": 1,
     "handle": "@spacex",
     "tuit": "Hello welcome to webdev summer class, this is my first tuit. Take look for this website and let me know your feedback."
 },
@@ -24,6 +26,8 @@
     "replies": 123,
     "retuits": 432,
     "likes": 2345,
+    "disliked": false,
+    "dislikes": 3,
     "handle": "@spacex",
     "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
 },
@@ -39,6 +43,8 @@
     "replies": 111,
     "retuits": 666,
     "likes": 4567,
+    "disliked": true,
+    "dislikes": 5,
     "handle": "@tesla",
     "tuit": "Learn more about Tesla and have fun! Welcome to this tuits page, please enjoy it!"
  }

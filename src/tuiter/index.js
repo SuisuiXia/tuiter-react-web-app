@@ -14,8 +14,12 @@ import tuitsReducer from "./reducers/tuits-reducer";
 import tuitsNewSlice from "./reducers/new-tuits-reducer";
 import { configureStore } from '@reduxjs/toolkit';
 import {Provider} from "react-redux";
+// import ProfileScreen from "./user/profile";
+import LoginScreen from "./user/login-screen";
+import RegisterScreen from "./user/register";
+import authReducer from "./reducers/auth-reducer";
 const store = configureStore(
-  {reducer: {who: whoReducer, tuits: tuitsReducer, tuit: tuitsNewSlice}});
+  {reducer: {who: whoReducer, tuits: tuitsReducer, tuit: tuitsNewSlice, user:  authReducer}});
 
 function Tuiter() {
    return(
@@ -40,6 +44,9 @@ function Tuiter() {
                <Route path="/lists" element={<h1>Lists</h1>} />
                <Route path="/profile" element={<ProfileScreen/>} />
                <Route path="/more" element={<h1>More</h1>} />
+               <Route path="/login"    element={<LoginScreen    />} />
+               <Route path="/register" element={<RegisterScreen />} />
+               {/* <Route path="/profile"  element={<ProfileScreen  />} /> */}
                </Routes>
             </div>
             <div className="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
